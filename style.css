@@ -1,0 +1,303 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+body{
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    margin: 8px;
+    display: block;
+}
+main{
+    margin:0 165px;
+}
+a{
+ color: #747474;
+ text-decoration: none;
+}
+a.active{
+    color: #00b39b;
+}
+a:hover{
+    color: #00b39b;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    color: #747474;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0 -2px 10px 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 60px;
+    margin: 0;
+    background-color: white;
+  }
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+}
+.logo-docplanner{
+    width: 220px;
+}
+.introduction-title{
+    color: #00b39b;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    letter-spacing: -.3px;
+    font-weight: 300px;
+    font-size: 2.125rem;
+}
+.introduction-text{
+    display: flex;
+}
+.introduction-paragraph{
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.services{
+    display: flex;
+}
+.service-card{
+    padding: 20px;
+    border-radius: 10px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 10px;
+}
+.service-card-patients{
+    background-color: #00ccb1;
+}
+.service-card-doctors{
+    background-color: #3d83df;
+}
+.service-card-clinics{
+background-color: #1b2734;
+}
+.service-card-card{
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    color: white;
+}
+.service-card-title{
+    margin: 1em 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: -.3px;
+}
+.service-card-select{
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: Roboto,Arial,sans-serif;
+}
+select{
+    color: white;
+}
+option{
+    color:black
+}
+.brands-middle{
+    padding: 0 20px;
+   
+}
+h1{
+    color: #00b39b;
+    font-weight: 300;
+    font-size: 2em;
+    font-family: Work Sans,Arial,sans-serif;
+    margin: 0;
+}
+.brands-logos{
+    list-style: none;
+   
+}
+.craft{
+    background: #e5faf8;   
+    display:flex;
+    
+}
+.craft h1{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.craft p{
+    margin-left: 180px;
+}
+.craft img{
+    margin-left: 50px;
+    }
+.boxes{
+    margin-left: 250px;
+    
+}
+.content-box{
+    background-color: white;
+    height: 220px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.content-box h1{
+    margin:0 !important;
+}
+.content-box p{
+    margin:0 !important;
+}
+
+.top{
+    display: flex;
+    margin-bottom: 20px;
+}
+.bottom{
+    display: flex;
+    height: 350px;
+}
+#div1{
+    margin-top: 50px !important;
+    margin-right: 20px;
+}
+#div4{
+    margin-left: 20px;
+}
+#div2{
+    margin-top: 20px;
+}
+#div3{
+    margin-top: 30px;
+}
+.cities{
+    margin-top: 90px;
+    padding: 20px;
+    background-color: white;
+    height: 1350px;
+    text-align: center;
+}
+.visits{
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    cursor: pointer;
+    gap: 20px;
+    padding: 1.1111111111em;
+    margin-left: 230px;
+    
+    
+    
+}
+.visits img{
+
+    border-radius: 6px;
+}
+.visits button{
+    background-color: #3d83df;
+    border-radius: 4px ;
+    color: #fff;
+    border: 0;
+    margin-top: 6px;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 100px;
+    font-size: 11px;
+    margin-left: 20px;
+    width: 130px;
+    height: 33px;
+} 
+.text-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+    margin: -5px 10px;
+    font-weight:500px;
+    font-size: 20px;
+}
+.visits>div:hover{
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,.13);
+    border-radius: 15px;
+}
+.visits>div {
+padding-bottom: 10px;
+}
+.last-text{
+    margin-bottom: 80px;
+    background-color: white;
+    
+}
+.last-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.last-content h1{
+    color: #333;
+    margin-bottom: 30px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.botn{
+    background-color: #3d83df;
+    color: #fff;
+    border-radius: 4px;
+    height: 45px;
+    width: 200px;
+    font-size: 12.7px;
+    font-weight: bold;
+    border: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: Roboto,Arial,sans-serif;
+    border-top: 1px solid #eef2f2;
+    color: #ababab;
+    font-size: 13px;
+}
+footer p{
+    line-heigh: 0.0px;
+    text-decoration: none;
+    
+    
+   
+}
+#specific1{
+    margin-top: 26px;
+}
+#specific2{
+    margin-top: 12px;
+}
+footer a{
+    color: #3d83df;
+    text-decoration: underline;
+}
+
+
+
